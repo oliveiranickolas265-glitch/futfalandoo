@@ -1,0 +1,75 @@
+body{
+     background-image: url("imagens/depositphotos_1412279-stock-photo-blue-background.jpg");
+     background-repeat: repeat;
+     background-position: center;
+     background-size: 1500%;
+     background-color: white;
+}
+body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background-color: #f3f4f6;
+        }
+        .tabela-container {
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            overflow: hidden;
+            background: #ffffff;
+        }
+        .table-brasileirao {
+            font-size: 0.88rem;
+            margin-bottom: 0;
+        }
+        .table-brasileirao thead th {
+            background-color: #f9fafb;
+            color: #4b5563;
+            font-weight: 700;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            padding: 14px 10px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        .table-brasileirao tbody tr {
+            transition: background-color 0.15s ease-in-out;
+        }
+        .table-brasileirao tbody tr:hover {
+            background-color: #f8fafc !important;
+        }
+        .table-brasileirao tbody td, .table-brasileirao tbody th {
+            padding: 12px 10px;
+            vertical-align: middle;
+            border-bottom: 1px solid #f1f5f9;
+            color: #1f2937;
+        }
+        .col-pos {
+            text-align: center;
+            font-weight: 700;
+            width: 55px;
+        }
+        .z-libertadores { border-left: 4px solid #0056B3 !important; }
+        .z-pre-libertadores { border-left: 4px solid #10B981 !important; }
+        .z-sulamericana { border-left: 4px solid #F59E0B !important; }
+        .z-rebaixamento { border-left: 4px solid #EF4444 !important; }
+
+        .escudo-clube {
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.62rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-right: 12px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+        }
+        .col-pts {
+            font-weight: 800;
+            background-color: rgba(249, 250, 251, 0.6);
+            color: #111827 !important;
+        }
+        .texto-sg {
+            font-weight: 600;
+        }
